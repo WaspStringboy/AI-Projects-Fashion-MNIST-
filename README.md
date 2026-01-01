@@ -11,3 +11,8 @@
 # 2. 步驟說明<br/>
 Step 1. 數據載入及預處理<br/>
 載入數據集：使用 TensorFlow 的 Keras API 載入 Fashion MNIST 數據集，這是一個常提供給初學者使用的深度學習圖像分類數據集。是由 60,000 個圖像的訓練集(training set)和 10,000 個圖像的測試集(test set)所組成。每個圖像都是一個 28×28 灰階影像，與 10 個類別的標籤相關聯。<br/>
+import tensorflow as tf<br/>
+
+mnist = tf.keras.datasets.fashion_mnist<br/>
+
+(training_images, training_labels), (test_images, test_labels) = mnist.load_data()<br/>
