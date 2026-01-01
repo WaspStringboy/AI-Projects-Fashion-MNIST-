@@ -24,7 +24,7 @@ mnist = tf.keras.datasets.fashion_mnist<br/>
 import matplotlib.pyplot as plt<br/>
 顯示第一個訓練圖像<br/>
 plt.imshow(training_images[0])<br/>
-<img width="478" height="499" alt="image" src="https://github.com/user-attachments/assets/f5a1ba5c-2d77-4384-b02a-baf2d97fd4e7" />
+![image](1.png)<br/>
 
 
 
